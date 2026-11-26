@@ -1,0 +1,12 @@
+# Arquivo de instruções local do Claude (não versionar)
+CLAUDE.md
+
+# Arquivo de teste grande gerado para os experimentos (>= 80 MB)
+files/testfile*
+*.bin
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
