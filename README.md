@@ -30,7 +30,9 @@ O que o sistema faz:
 ## Antes de clonar / começar, leia (nesta ordem)
 
 1. **`arquivos/TP - RC2.pdf`** — o enunciado do trabalho (a fonte de todos os
-   requisitos). Os demais PDFs em `arquivos/` são o material da matéria.
+   requisitos). O repositório inclui também, em `arquivos/`, **todo o material da
+   matéria** (livro, artigos e slides sobre TCP, QUIC, CDNs e desempenho de
+   redes), versionado junto para dar contexto a quem for desenvolver.
 2. **`docs/superpowers/specs/2026-11-26-mini-quic-design.md`** — o documento de
    **design**: cabeçalho do protocolo, arquitetura em camadas, Selective Repeat,
    handshake, migração e as decisões já tomadas. **É a fonte de verdade.**
@@ -65,17 +67,12 @@ o assistente a:
 
 - **Ler sempre** o documento de design (`docs/superpowers/specs/...`) no início de
   cada conversa, tratando-o como fonte de verdade.
-- **Nunca** se atribuir como autor/contribuidor dos commits (sem linhas
-  `Co-Authored-By` nem menção ao Claude) — os commits saem só no nome do autor.
-- Só commitar/dar push quando explicitamente solicitado.
 
 Exemplo mínimo de `CLAUDE.md`:
 
 ```markdown
 # CLAUDE.md
 - No início de toda conversa, leia docs/superpowers/specs/2026-11-26-mini-quic-design.md.
-- Nunca atribua o Claude como autor dos commits (sem Co-Authored-By).
-- Só commite quando eu pedir.
 ```
 
 ## Execução
