@@ -78,5 +78,9 @@ Exemplo mínimo de `CLAUDE.md`:
 ## Execução
 
 Instruções de instalação, configuração e execução (servidor, cliente,
-experimentos e dashboard) serão adicionadas a este README conforme o código for
-implementado (Tarefa 10 do plano).
+experimentos e dashboard) serão adicionadas conforme o código for implementado
+(Tarefa 10 do plano).
+
+> **Nota:** este README é de apresentação/onboarding. **Quando o trabalho estiver
+> finalizado**, ele será substituído pelo README exigido pelo professor —
+> instruções de compilação, configuração e execução do sistema (enunciado §9).
